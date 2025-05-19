@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caratula {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    display: block; /* Para que el logo ocupe su propia línea */
+    margin: 0 auto 15px; /* Centrar horizontalmente y agregar espacio debajo */
+    max-width: 200px; /* Ajusta este valor para el tamaño deseado del logo */
+    height: auto; /* Mantener la proporción de aspecto */
+}
+
+.titulo-proyecto {
+    font-size: 2.5em; /* Puedes ajustar el tamaño del título aquí */
+    color: #333;
+    margin-bottom: 10px; /* Espacio entre el título y el subtítulo */
+}
+
+.subtitulo-proyecto {
+    color: #777;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.beneficio-clave {
+    color: #00aaff; /* Un color que resalte */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.boton-enlace {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton-enlace:hover {
+    background-color: #0056b3;
+}
+
+.mantenimiento {
+    color: #ff6600; /* Un color de advertencia */
+    margin-top: 20px;
+    font-size: 0.9em;
+}
